@@ -11,7 +11,7 @@ public class login {
         // Initialize the ChromeDriver
 		WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();	
-        driver.get("https://qa-admin.trusthub.in/login");
+        driver.get("https://qa.trusthub.in/login");
         Thread.sleep(3000);
 	}
 
